@@ -1,0 +1,33 @@
+body {
+   background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEdYDDdpGjmaEzbcBPqYtS4wxiiJ6fXhKTB7eP7AByW9i8S0JFfA); 
+  background-size: 100% auto;
+
+   
+}
+.surround{ 
+border: 10px solid white;
+height: 370px;
+max-width: 700px;
+  margin: 0 auto;
+  padding-left: 45px;  
+}
+form {
+    position: relative;
+    top: 50px;
+    max-width: 700px;
+    margin: 0 auto;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    overflow: auto;
+}
+.column {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    position: relative;
+    width: 33%;
+}
+.boxes label, .boxes input {
+    display: block;
+}
